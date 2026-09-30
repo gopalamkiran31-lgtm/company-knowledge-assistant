@@ -148,8 +148,8 @@ if st.button("Process Documents"):
 
 st.divider()
 
-st.subheader("Ask a Question")
 
+# Question section
 col1, col2 = st.columns(2)
 
 with col1:
@@ -159,7 +159,6 @@ with col2:
     if st.button("🗑️ Clear Chat"):
         st.session_state["question"] = ""
         st.rerun()
-
 
 question = st.text_input(
     "Enter your question:",
