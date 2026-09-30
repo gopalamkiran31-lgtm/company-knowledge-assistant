@@ -49,3 +49,30 @@ Groq LLM
  │
  ▼
 Answer + Source Documents
+
+
+
+
+company-knowledge-assistant/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── documents/
+│   └── sample documents
+│
+├── data/
+│
+├── utils/
+│   ├── __init__.py
+│   ├── chunker.py
+│   ├── embedding.py
+│   ├── groq_helper.py
+│   ├── pdf_reader.py
+│   └── search.py
+│
+├── test_embedding.py
+├── test_groq.py
+└── test_search.pygit
